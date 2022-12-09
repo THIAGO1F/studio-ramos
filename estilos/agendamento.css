@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+
+body{
+   background-color: #F6F6F6;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #5e5455;
+    padding: 20px;
+    background-color: #ea6f7b;
+    width: 100%;
+}
+
+.container_menu_bar{
+    display: flex;
+    margin-right: 30px;
+}
+
+.container_menu_bar .duvidas{
+    font-size: 20px;
+    border: 1px solid #171717;
+    padding: 0px 10px;
+    border-radius: 100%;
+}
+.container_menu_bar .duvidas:hover{
+    color: white;
+}
+
+
+.container_menu_bar a{
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: bold;
+    color: #171717;
+}
+
+.container_menu_bar a:hover{
+    text-decoration: underline;
+    color: #0c0c0cc2;
+}
+
+
+#pg_agendamento{
+    text-decoration: underline;
+    color: #0c0c0cc2;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacoes_makes{
+    width: 60%;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.379);
+}
+
+.menu_makes{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_makes img{
+    margin-top: 50px;
+    width: 750px;
+}
+
+.menu_makes h1{
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    font-family: 'Poppins';
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 3px 3px black;
+
+}
+.menu_makes p{
+    position: absolute;
+    top: 52%;
+    left: 10%;
+    font-family: 'Sarala';
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+.experiancias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 60px;
+    width: 700px;
+    
+}
+
+.experiancias h1{
+    font-family: 'Poppins';
+    font-size: 30px;
+    color: #171717;
+    font-weight: 500;
+    line-height: 2px;
+}
+
+.container_exp{
+    margin-top: 50px;
+    border: 1px solid #1717178d;
+    border-radius: 7px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.container_experiencias{
+    display: flex;
+    flex-direction: column;
+    background-color: #efefefe8;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.187);
+    align-items: center;
+
+}
+
+.container_experiencias img{
+    width: 150px;
+    padding: 5px;
+}
+
+.container_experiencias h2{
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: #171717;
+    font-weight: 500;
+    line-height: 15px;
+}
+.container_experiencias h3{
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #171717;
+    font-weight: 500;
+    
+}
+.container_experiencias h4{
+    font-family: 'Sarala';
+    font-size: 16px;
+    color: #171717;
+    font-weight: 900;
+    
+}
+
+.estrelas{
+    display: flex;
+}
+
+.estrelas i{
+    color: #ea6f7b;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.agendamento{
+    width: 500px;
+    background-color: #ffff;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.escolhas_agendamento{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 1px solid #171717b9;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.escolhas_agendamento a{
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: #171717;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.escolhas_agendamento a:hover{
+    color: #ea6f7b;
+}
+.escolhas_agendamento i{
+    font-size: 16px;
+    margin: 10px;
+    color: rgb(255, 115, 0);
+}
+.escolhas_agendamento h1{
+    font-family: 'Sarala';
+    font-size: 30px;
+    color: #171717;
+    font-weight: 500;
+}
+.escolhas_agendamento label{
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: #171717;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#tipo_make{
+    font-family: 'Sarala';
+    font-size: 13px;
+    color: #171717;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #171717b9;
+}
+
+.opcoes_make{
+    font-family: 'Sarala';
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.contem_preco{
+    font-family: 'Sarala';
+    font-weight: 900;
+    font-size: 12px;
+    margin-top: 20px;
+    background-color: #171717;
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+}
+
+#escolha_data{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #171717b9;
+    font-family: 'Sarala';
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+#escolha_horario{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #171717b9;
+    font-family: 'Sarala';
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+#cpf{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #171717b9;
+    font-family: 'Sarala';
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+#nome{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #171717b9;
+    font-family: 'Sarala';
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+#Email{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #171717b9;
+    font-family: 'Sarala';
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.concluir_agendamento{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 400px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.concluir_agendamento p{
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 15px;
+    line-height: 15px;
+}
+.concluir_agendamento a{
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #171717;
+}
+.concluir_agendamento a:hover{
+    color: #ea6f7b;
+}
+
+.confirmacao{
+    display: flex;
+    margin: 10px;
+}
+
+.confirmacao p{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.confirmacao a{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.confirmacao a:hover{
+    color: #ea6f7b;
+}
+
+
+#btn_concluir_agendamento{
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #171717;
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Sarala';
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn_concluir_agendamento:hover{
+    background-color: #ea6f7b;
+    color: #171717;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #ea6f7b;
+    margin-top: 60px;
+
+}
+
+.links_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+    padding: 50px;
+    
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+}
+
+.contatos i{
+    font-size: 25px;
+    border-radius: 100px;
+    margin: 2px;
+    color: #171717;
+    background-color: #F6F6F6;
+    padding: 7px;
+}
+.contatos i:hover{
+    background-color: #171717;
+    color: #ea6f7b;
+}
+
+.container_links{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    
+}
+
+.container_links h3{
+    color: white;
+    font-family: 'Sarala';
+    font-size: 20px;
+}
+
+.container_links p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.container_links a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+}
+.container_links a:hover{
+    text-decoration: underline;
+}
+
+
+
+.pagamentos_cadastro{
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.container_cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container_cadastro h3{
+    color: white;
+    font-family: 'Sarala';
+    font-size: 16px;
+}
+
+.container_cadastro a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #171717;
+}
+
+
+
+.container_cadastro a:hover{
+    text-decoration: underline;
+}
+
+.cadastro form{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+#email{
+    width: 300px;
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 4px;
+    border: 1px solid #171717a5;
+    font-family: 'Sarala';
+    font-weight: bold;
+    outline:none;
+    margin-top: 3px;
+}
+
+
+
+#btn_cadastrar{
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+    font-family: 'Sarala';
+    font-weight: bold;    
+    cursor: pointer;
+    background-color: #171717;
+    color: white;
+    border: none;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+#btn_cadastrar:hover{
+    background-color: black;
+}
+
+
+.container_cadastro p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.localizacao{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.localizacao h3{
+    color: white;
+    font-family: 'Sarala';
+    font-size: 16px;
+}
+.localizacao p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.container_pagamentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container_pagamentos h3{
+    color: white;
+    font-family: 'Sarala';
+    font-size: 16px;
+}
+
+.icones_pagamentos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icones_pagamentos i{
+    font-size: 35px;
+    margin: 5px;
+    color: #171717;
+}
