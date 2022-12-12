@@ -41,6 +41,59 @@ header{
     position: fixed;
 }
 
+
+#Fecha-menu-barras{
+    font-size: 30px;
+    background-color: #ea6f7b;
+    border: none;
+    color: #171717;
+    display: none;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#mostra_menu{
+   position: absolute;
+   display: none;
+   top: 0px;
+   right: 0px;
+    
+
+}
+#mostra_menu nav{
+    width: 200px;
+    background-color: #070707c1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    border-radius: 0px 0px 0px 10px;
+
+}
+
+#mostra_menu a{
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Sarala';
+    font-size: 20px;
+    text-decoration: none;
+}
+#mostra_menu #pg_home{
+
+   color: #ea6f7b;
+}
+
+#menu-barras{
+    font-size: 30px;
+    background-color: #ea6f7b;
+    border: none;
+    color: #171717;
+    display: none;
+}
+
 .container_menu_bar{
     display: flex;
     margin-right: 30px;
@@ -872,11 +925,19 @@ footer{
 }
 
 
-@media screen and (max-width: 825px){
+@media screen and (max-width: 600px){
     #contato_wats{
        top: 88%;
         
     }
+
+    #menu-barras{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+
     #img_logo{
         display: none;
     }
