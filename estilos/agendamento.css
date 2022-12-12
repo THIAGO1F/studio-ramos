@@ -205,7 +205,22 @@ main{
     margin-top: 20px;
 }
 
+.buttons_agendamento{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.escolhas_agendamento .buttons_agendamento a{
+    margin: 5px;
+    text-align: none;
+    font-size: 12px;
+    border: 1px solid #171717;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
 .escolhas_agendamento a{
+    text-decoration: none;
     font-family: 'Poppins';
     font-size: 13px;
     color: #171717;
@@ -236,8 +251,35 @@ main{
     
 }
 
+.escolhas_agendamento span{
+    font-family: 'Sarala';
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+    display: none;
+}
+
+.escolhas_agendamento p{
+    font-family: 'Sarala';
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
 
 #tipo_make{
+    font-family: 'Sarala';
+    font-size: 13px;
+    color: #171717;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #171717b9;
+}
+
+#tipo_extra{
     font-family: 'Sarala';
     font-size: 13px;
     color: #171717;
@@ -289,6 +331,18 @@ main{
     margin-bottom: 20px;
 }
 
+
+#escolha_loja{
+    font-family: 'Sarala';
+    font-size: 13px;
+    color: #171717;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #171717b9;
+}
+
 #cpf{
     padding: 10px;
     border-radius: 5px;
@@ -334,6 +388,14 @@ main{
     text-align: justify;
 }
 
+.concluir_agendamento span{
+    font-family: 'Sarala';
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+    display: none;
+}
+
 .concluir_agendamento p{
     font-family: 'Poppins';
     font-size: 15px;
@@ -372,6 +434,7 @@ main{
 .confirmacao a:hover{
     color: #ea6f7b;
 }
+
 
 
 #btn_concluir_agendamento{

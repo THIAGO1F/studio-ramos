@@ -1,18 +1,9 @@
 como estilizar o input time 
-colocar a funcao para aparecer o preco e a localização quando apertar no butão
 colocar liitação de agendamentos em um dia
 limite de hora
 
-
-op para agendamentos via watssap
-
-escolher tipo de atendimento
-
-fazer sistema se deixar valor vazio com cores vermelhas com js
-
-fazer os links da categorias de imagens para ir ate o px selecionado com bottom: 35px;https: //wa.ne/|
+ 35px;https: //wa.ne/|
 
 
-fazer sistema de avaliação com js
 
 fazer parte de cancelar agendamneto e mudar dia hora e tudo mais

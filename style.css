@@ -135,6 +135,443 @@ header{
     justify-content: space-around;
 }
 
+.container_makes{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #171717;
+}
+
+.titulo_makes{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+
+
+
+
+
+.titulo_makes #btn_verMais{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#btn_verMenos{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+}
+
+#btn_verMenos:hover{
+    color: #ea6f7b;
+}
+
+#btn_verMais2{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+#btn_verMais2:hover{
+    color: #ea6f7b;
+}
+#btn_verMenos2{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+}
+#btn_verMenos2:hover{
+    color: #ea6f7b;
+}
+
+#btn_verMais3{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+#btn_verMais3:hover{
+    color: #ea6f7b;
+}
+#btn_verMenos3{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+}
+#btn_verMenos3:hover{
+    color: #ea6f7b;
+}
+
+
+#btn_verMais4{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+#btn_verMais4:hover{
+    color: #ea6f7b;
+}
+#btn_verMenos4{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+}
+#btn_verMenos4:hover{
+    color: #ea6f7b;
+}
+
+#btn_verMais5{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+#btn_verMais5:hover{
+    color: #ea6f7b;
+}
+#btn_verMenos5{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+}
+#btn_verMenos5:hover{
+    color: #ea6f7b;
+}
+
+#btn_verMais6{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+#btn_verMais6:hover{
+    color: #ea6f7b;
+}
+#btn_verMenos6{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+}
+#btn_verMenos6:hover{
+    color: #ea6f7b;
+}
+
+#btn_verMais7{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+#btn_verMais7:hover{
+    color: #ea6f7b;
+}
+#btn_verMenos7{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+}
+#btn_verMenos7:hover{
+    color: #ea6f7b;
+}
+
+#btn_verMais8{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+#btn_verMais8:hover{
+    color: #ea6f7b;
+}
+#btn_verMenos8{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+}
+#btn_verMenos8:hover{
+    color: #ea6f7b;
+}
+
+#btn_verMais9{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+#btn_verMais9:hover{
+    color: #ea6f7b;
+}
+#btn_verMenos9{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+}
+#btn_verMenos9:hover{
+    color: #ea6f7b;
+}
+
+#btn_verMais10{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+#btn_verMais10:hover{
+    color: #ea6f7b;
+}
+#btn_verMenos10{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+}
+#btn_verMenos10:hover{
+    color: #ea6f7b;
+}
+
+#btn_verMais11{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+#btn_verMais11:hover{
+    color: #ea6f7b;
+}
+#btn_verMenos11{
+    font-family: 'Sarala';
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+}
+#btn_verMenos11:hover{
+    color: #ea6f7b;
+}
+
+.titulo_makes #btn_verMais:hover{
+    color: #ea6f7b;
+}
+
+.make_natural{
+    display: flex;
+}
+
+.container_make_natural{
+    border: 1px solid #171717;
+    width: 300px;
+    height: 320px;
+    margin: 5px;
+    
+}
+
+
+.buttons_make button{
+    border: 1px solid white;
+    background-color: #ea6f7b;
+    padding: 10px 20px;
+    font-family: 'Sarala';
+    font-weight: bold;
+    color: #171717;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 0.3s all;
+}
+
+.buttons_make button:hover{
+    border: 1px solid #070707;
+    transform: scale(1.02);
+}
+
+
+#make01{
+    display: flex;
+    display: none;
+}
+#make1{
+    display: flex;
+    display: none;
+}
+#make2{
+    display: flex;
+    display: none;
+}
+#make02{
+    display: flex;
+    display: none;
+}
+#make3{
+    display: flex;
+    display: none;
+}
+#make03{
+    display: flex;
+    display: none;
+}
+#make4{
+    display: flex;
+    display: none;
+}
+#make04{
+    display: flex;
+    display: none;
+}
+#make5{
+    display: flex;
+    display: none;
+}
+#make05{
+    display: flex;
+    display: none;
+}
+#make6{
+    display: flex;
+    display: none;
+}
+#make06{
+    display: flex;
+    display: none;
+}
+#make7{
+    display: flex;
+    display: none;
+}
+#make07{
+    display: flex;
+    display: none;
+}
+#make8{
+    display: flex;
+    display: none;
+}
+#make08{
+    display: flex;
+    display: none;
+}
+#make9{
+    display: flex;
+    display: none;
+}
+#make09{
+    display: flex;
+    display: none;
+}
+#make10{
+    display: flex;
+    display: none;
+}
+#make010{
+    display: flex;
+    display: none;
+}
+#make11{
+    display: flex;
+    display: none;
+}
+#make011{
+    display: flex;
+    display: none;
+}
+
 .makes{
     background-color: white;
     width: 70%;
@@ -160,45 +597,24 @@ header{
     margin: 10px;
 }
 
+.makes h3{
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: #171717;
+    margin: 10px;
+}
+
 .makes p{
     font-family: 'Poppins';
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 500;
     color: #171717;
     margin: 10px;
 }
 .makes img{
-    width: 400px;
+    width: 300px;
 }
 
-.butons_make{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px;
-    margin-bottom: 100px;
-}
-
-.butons_make a{
-    text-decoration: none;
-    font-family: 'Sarala';
-    color: white;
-    background-color: #ea6f7b;
-    padding: 5px 50px;
-    border: 1px solid black;
-    transition: 0.3s all;
-}
-
-.butons_make a:hover{
-    background-color: #ea6f7bc9;
-    transform: scale(1.02);
-}
-
-
-.butons_make i{
-    font-size: 25px;
-    color: #ff3a4e;
-    cursor: pointer;
-}
 
 
 .categorias{
@@ -456,3 +872,89 @@ footer{
 }
 
 
+@media screen and (max-width: 825px){
+    #contato_wats{
+       top: 88%;
+        
+    }
+    #img_logo{
+        display: none;
+    }
+    .inicio{
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    .container_principal h1{
+        font-size: 70px;
+
+    }
+    .container_marca{
+       height: 350px;
+        
+    }
+    .container_marca p{
+       font-size: 20px;
+
+    }
+    .categorias{
+        display: none;
+    }
+    .container_principal2{
+        width: 100%;
+    }
+    .container_principal2 h1{
+        font-size: 30px;
+    }
+    .container_principal2 h2{
+        font-size: 25px;
+    }
+
+    .makes{
+        width: 100%;
+    }
+    .make_natural{
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+    .titulo_makes h2{
+        font-size: 20px;
+    }
+    .btn{
+        display: none;
+    }   
+
+    .links_footer{
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .dividir_links{
+        margin:2px;
+        display: flex;
+        margin: 15px;
+        flex-direction: column;
+    }
+    .uteis{
+        margin:2px;
+        display: flex;
+        margin: 15px;
+        align-items: center;
+
+    }
+    .perguntas{
+        display: none;
+    }
+    .container_cadastro{
+        display: none;
+    }
+    footer{
+        height: 700px;
+    }
+    .localizacao{
+        margin-top: 170px;
+        align-items: center;
+    }
+}
