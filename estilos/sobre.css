@@ -10,11 +10,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 
 body{
    background-color: #f3f0f0;
+  
 }
 
 header{
@@ -264,7 +266,7 @@ article p{
 }
 
 
-.mapa{
+.mapa1{
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -359,6 +361,10 @@ footer{
 
 }
 
+footer h3{
+    font-size: 500px;
+}
+
 .links_footer{
     display: flex;
     flex-direction: row;
@@ -367,11 +373,24 @@ footer{
     padding: 50px;
     
 }
+.links_footer h3{
+    font-size: 20px;
+    
+}
+
+.dividi_links{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
 
 .contatos{
     display: flex;
     align-items: center;
 }
+
 
 .contatos i{
     font-size: 25px;
@@ -409,6 +428,7 @@ footer{
 .container_links a:hover{
     text-decoration: underline;
 }
+
 
 
 .pagamentos_cadastro{
@@ -506,6 +526,8 @@ footer{
     font-weight: 500;
 }
 
+
+
 .container_pagamentos{
     display: flex;
     flex-direction: column;
@@ -526,4 +548,194 @@ footer{
     font-size: 35px;
     margin: 5px;
     color: #171717;
+}
+
+
+
+@media screen and (max-width: 800px){
+    .container_imagens{
+    display: none;
+   }
+    .container_sobre{
+    align-items: center;
+    justify-content: center;
+   }
+
+    article{
+    width: 500px;
+   }
+
+    .container_comentario{
+        width: 500px;
+    }
+
+    footer{
+        height: 700px;
+    }
+
+    iframe{
+        width: 300px;
+        height: 300px;
+    }
+
+    .perguntas{
+        display: none;
+    }
+
+    .dividir_links{
+        flex-direction: column-reverse;
+    }
+
+    .pagamentos_cadastro{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .localizacao{
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .mapa2{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mapa2 iframe{
+        width: 500px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 600px){
+
+    .container_imagens{
+    display: none;
+   }
+    .container_sobre{
+    align-items: center;
+    justify-content: center;
+   }
+
+
+    article{
+    width: 500px;
+   }
+
+    .container_comentario{
+        width: 500px;
+    }
+
+    .localizacao_mapa{
+        flex-direction: column;
+    }
+    .localizacao_mapa iframe{
+        width: 400px;
+    }
+
+    footer{
+        height: 700px;
+    }
+
+
+    .perguntas{
+        display: none;
+    }
+
+    .dividir_links{
+        flex-direction: column-reverse;
+    }
+
+    .pagamentos_cadastro{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .localizacao{
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .mapa2{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mapa2 iframe{
+        width: 500px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 600px){
+
+    .container_imagens{
+    display: none;
+   }
+    .container_sobre{
+    align-items: center;
+    justify-content: center;
+   }
+
+
+    article{
+    width: 500px;
+   }
+
+    .container_comentario{
+        width: 500px;
+    }
+
+    .localizacao_mapa{
+        flex-direction: column;
+    }
+    .localizacao_mapa iframe{
+        width: 350px;
+    }
+
+    footer{
+        height: 700px;
+    }
+
+
+    .perguntas{
+        display: none;
+    }
+
+    .links_footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .uteis{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 100px;
+    }
+
+    .dividir_links{
+        flex-direction: column;
+    }
+
+    .pagamentos_cadastro{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .localizacao{
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .mapa2{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mapa2 iframe{
+        width: 500px;
+        height: 100px;
+    }
 }

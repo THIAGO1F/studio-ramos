@@ -22,12 +22,12 @@ body{
     position: fixed;
     top: 85%;
     left: 3%;
-    background-color: rgba(0, 128, 0, 0.672);
-    padding: 10px 15px;
-    border-radius: 100%;
-    color: white;
-    font-size: 40px;
-    bottom: 35px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    opacity: 80%;
     
 }
 
@@ -80,6 +80,7 @@ header{
     font-family: 'Sarala';
     font-size: 20px;
     text-decoration: none;
+
 }
 #mostra_menu #pg_home{
 
@@ -925,17 +926,11 @@ footer{
 }
 
 
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 740px){
     #contato_wats{
        top: 88%;
         
-    }
-
-    #menu-barras{
-        display: block;
-    }
-    .nav{
-        display: none;
     }
 
     #img_logo{
@@ -945,16 +940,22 @@ footer{
         justify-content: center;
         margin-bottom: 0;
     }
+    
+    
+    
     .container_principal h1{
         font-size: 70px;
 
     }
     .container_marca{
-       height: 350px;
+       height: 100px;
         
     }
+    .container_marca h1{
+        font-size: 90px;
+    }
     .container_marca p{
-       font-size: 20px;
+       font-size: 25px;
 
     }
     .categorias{
@@ -962,6 +963,103 @@ footer{
     }
     .container_principal2{
         width: 100%;
+        margin-top: 10px;
+    }
+    .container_principal2 h1{
+        font-size: 30px;
+    }
+    .container_principal2 h2{
+        font-size: 25px;
+    }
+
+    .makes{
+        width: 100%;
+    }
+    .make_natural{
+        flex-direction: row;
+        align-items: center;
+        text-align: justify;
+    }
+    .titulo_makes h2{
+        font-size: 20px;
+    }
+    .btn{
+        display: none;
+    }   
+
+    .links_footer{
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .dividir_links{
+        margin:2px;
+        display: flex;
+        margin: 15px;
+        flex-direction: column;
+    }
+    .uteis{
+        margin:2px;
+        display: flex;
+        margin: 15px;
+        align-items: center;
+
+    }
+    .perguntas{
+        display: none;
+    }
+    .container_cadastro{
+        display: none;
+    }
+    footer{
+        height: 700px;
+    }
+    .localizacao{
+        margin-top: 200px;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 630px){
+    #contato_wats{
+       top: 88%;
+        
+    }
+    
+    #img_logo{
+        display: none;
+    }
+    .inicio{
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    
+    
+    
+    .container_principal h1{
+        font-size: 70px;
+
+    }
+    .container_marca{
+       height: 100px;
+        
+    }
+    .container_marca h1{
+        font-size: 90px;
+    }
+    .container_marca p{
+       font-size: 25px;
+
+    }
+    .categorias{
+        display: none;
+    }
+    .container_principal2{
+        width: 100%;
+        margin-top: 10px;
     }
     .container_principal2 h1{
         font-size: 30px;
@@ -1015,7 +1113,107 @@ footer{
         height: 700px;
     }
     .localizacao{
-        margin-top: 170px;
+        margin-top: 200px;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    #contato_wats{
+       top: 88%;
+        
+    }
+
+    #menu-barras{
+        display: block;
+    }
+
+    #img_logo{
+        display: none;
+    }
+    .inicio{
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    
+    
+    
+    .container_principal h1{
+        font-size: 70px;
+
+    }
+    .container_marca{
+       height: 100px;
+        
+    }
+    .container_marca h1{
+        font-size: 90px;
+    }
+    .container_marca p{
+       font-size: 25px;
+
+    }
+    .categorias{
+        display: none;
+    }
+    .container_principal2{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .container_principal2 h1{
+        font-size: 30px;
+    }
+    .container_principal2 h2{
+        font-size: 25px;
+    }
+
+    .makes{
+        width: 100%;
+    }
+    .make_natural{
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+    .titulo_makes h2{
+        font-size: 20px;
+    }
+    .btn{
+        display: none;
+    }   
+
+    .links_footer{
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .dividir_links{
+        margin:2px;
+        display: flex;
+        margin: 15px;
+        flex-direction: column;
+    }
+    .uteis{
+        margin:2px;
+        display: flex;
+        margin: 15px;
+        align-items: center;
+
+    }
+    .perguntas{
+        display: none;
+    }
+    .container_cadastro{
+        display: none;
+    }
+    footer{
+        height: 700px;
+    }
+    .localizacao{
+        margin-top: 200px;
         align-items: center;
     }
 }
