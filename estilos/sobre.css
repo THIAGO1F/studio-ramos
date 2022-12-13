@@ -667,7 +667,7 @@ footer h3{
         height: 100px;
     }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
 
     .container_imagens{
     display: none;
@@ -718,14 +718,22 @@ footer h3{
         flex-direction: column;
     }
 
+    .contatos{
+        margin-bottom: 20px;
+    }
+
+    .container_cadastro{
+        display: none;
+    }
+
     .pagamentos_cadastro{
         flex-direction: column;
-        margin-top: 100px;
+        margin-top: 150px;
     }
 
     .localizacao{
         align-items: center;
-        margin-top: 20px;
+        margin-top: 50px;
     }
 
     .mapa2{
@@ -736,6 +744,6 @@ footer h3{
 
     .mapa2 iframe{
         width: 500px;
-        height: 100px;
+        height: 150px;
     }
 }
